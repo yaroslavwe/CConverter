@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/app_background_dark">
+
+    <ImageButton
+        android:id="@+id/settingsClose"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/arrow_back"
+        android:scaleType="center"
+        android:background="?android:attr/selectableItemBackground"
+        app:layout_constraintTop_toTopOf="@id/settingsTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="12dp"
+        app:layout_constraintBottom_toBottomOf="@id/settingsTitle" />
+
+    <TextView
+        android:id="@+id/settingsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/inter_semibold"
+        android:paddingStart="10dp"
+        android:text="@string/ENsettingsTitle"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/settingsClose"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/setting1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/background_panel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/settingsTitle">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/langPanel1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/background_panel"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/setting1">
+
+        <TextView
+            android:id="@+id/switchLangText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_semibold"
+            android:text="@string/ENswitchLangText"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@id/langPanel1"
+            app:layout_constraintTop_toTopOf="@id/langPanel1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="@id/langPanel1"
+            app:layout_constraintTop_toBottomOf="@id/switchLangText">
+
+            <ImageButton
+                android:id="@+id/uaSelect"
+                android:layout_width="27dp"
+                android:layout_height="18dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ua_flag" />
+
+            <ImageButton
+                android:id="@+id/ruSelect"
+                android:layout_width="27dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="12dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ru_flag" />
+
+            <ImageButton
+                android:id="@+id/enSelect"
+                android:layout_width="27dp"
+                android:layout_height="19dp"
+                android:layout_marginStart="12dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/usa_flag" />
+
+            <ImageButton
+                android:id="@+id/plSelect"
+                android:layout_width="27dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="12dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/pl_flag" />
+
+            <ImageButton
+                android:id="@+id/nlSelect"
+                android:layout_width="27dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="12dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/nl_flag" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

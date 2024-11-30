@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="currencies_list">
+        <item>🇺🇸 USD</item>
+        <item>🇪🇺 EUR</item>
+        <item>🇵🇱 PLN</item>
+        <item>🇷🇺 RUB</item>
+        <item>🇺🇦 UAH</item>
+        <item>🇧🇩 BDT</item>
+        <item>🇧🇭 BHD</item>
+        <item>🇧🇬 BGN</item>
+        <item>🇧🇴 BOB</item>
+        <item>🇧🇷 BRL</item>
+        <item>🇨🇦 CAD</item>
+        <item>🇨🇭 CHF</item>
+        <item>🇨🇱 CLP</item>
+        <item>🇨🇳 CNY</item>
+        <item>🇩🇰 DKK</item>
+        <item>🇪🇬 EGP</item>
+        <item>🇫🇯 FJD</item>
+        <item>🇬🇧 GBP</item>
+        <item>🇬🇪 GEL</item>
+        <item>🇭🇰 HKD</item>
+        <item>🇮🇱 ILS</item>
+        <item>🇮🇩 IDR</item>
+        <item>🇮🇸 ISK</item>
+        <item>🇮🇳 INR</item>
+        <item>🇯🇵 JPY</item>
+        <item>🇯🇲 JMD</item>
+        <item>🇰🇿 KZT</item>
+        <item>🇱🇧 LBP</item>
+        <item>🇲🇽 MXN</item>
+        <item>🇲🇾 MYR</item>
+        <item>🇲🇦 MAD</item>
+        <item>🇲🇺 MUR</item>
+        <item>🇳🇬 NGN</item>
+        <item>🇳🇴 NOK</item>
+        <item>🇳🇵 NPR</item>
+        <item>🇳🇿 NZD</item>
+        <item>🇴🇲 OMR</item>
+        <item>🇵🇭 PHP</item>
+        <item>🇵🇰 PKR</item>
+        <item>🇵🇾 PYG</item>
+        <item>🇶🇦 QAR</item>
+        <item>🇷🇴 RON</item>
+        <item>🇸🇦 SAR</item>
+        <item>🇸🇨 SCR</item>
+        <item>🇸🇪 SEK</item>
+        <item>🇸🇬 SGD</item>
+        <item>🇸🇿 SZL</item>
+        <item>🇹🇭 THB</item>
+        <item>🇹🇷 TRY</item>
+        <item>🇹🇼 TWD</item>
+        <item>🇺🇾 UYU</item>
+        <item>🇻🇳 VND</item>
+        <item>🇿🇦 ZAR</item>
+
+
+    </string-array>
+</resources>

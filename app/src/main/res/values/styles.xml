@@ -1,0 +1,6 @@
+<resources>
+    <style name="CustomSpinnerStyle" parent="Widget.AppCompat.Spinner">
+        <item name="android:background">@drawable/roundedbg</item>
+        <item name="fontFamily">@font/lato_bold</item>
+    </style>
+</resources>
