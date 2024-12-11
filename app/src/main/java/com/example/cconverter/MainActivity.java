@@ -153,8 +153,8 @@ public class MainActivity extends AppCompatActivity {
                 public void onSuccess(String conversionRateStr, String LastUpdateTime, String NextUpdateTime) {
                     conversionRate = Double.parseDouble(conversionRateStr);
                     ierUnit.setText("1 " + selectedItem1 + " = " + conversionRateStr + " " + selectedItem2);
-//                    lutUnit.setText(LastUpdateTime.replace(" +0000", ""));
-//                    nutUnit.setText(NextUpdateTime.replace(" +0000", ""));
+                    lutUnit.setText(LastUpdateTime.replace(" +0000", ""));
+                    nutUnit.setText(NextUpdateTime.replace(" +0000", ""));
                 }
 
                 @SuppressLint("SetTextI18n")
@@ -183,7 +183,7 @@ public class MainActivity extends AppCompatActivity {
         nutText.setText(nutRes);
         switchLangText.setText(switchLangRes);
 
-        Toast.makeText(getBaseContext(), toastMessage, Toast.LENGTH_SHORT).show();
+//        Toast.makeText(getBaseContext(), toastMessage, Toast.LENGTH_SHORT).show();
         fileStreams.setSelectedLanguage(langCode);
     }
 

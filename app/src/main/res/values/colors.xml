@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="primary1">#94D967</color>
+    <color name="primary2">#375226</color>
+    <color name="primary3">#163300</color>
+    <color name="light_green">#9fe870</color>
     <color name="light_blue">#E8E8FF</color>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>

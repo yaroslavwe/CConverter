@@ -1,8 +1,8 @@
 <resources>
-        <string name="app_name">CConverter</string>
-        <string name="app_version">v1.7</string>
+        <string name="app_name">ExoluteFlex</string>
+        <string name="app_version">v1.8</string>
 
-    <string name="UAtitleText">Конвертер Валют</string>
+    <string name="UAtitleText">ExoluteFlex</string>
     <string name="UAamount1Text">Початкова Сума</string>
     <string name="UAamount2Text">Конвертована Сума</string>
     <string name="UAierText">Індикатор Обмінного Курсу</string>
@@ -10,7 +10,7 @@
     <string name="UAnutText">Час Наступного Оновлення</string>
     <string name="UAswitchLangText">Змiнити мову</string>
 
-    <string name="RUtitleText">Конвертер Валют</string>
+    <string name="RUtitleText">ExoluteFlex</string>
     <string name="RUamount1Text">Начальная Cумма</string>
     <string name="RUamount2Text">Конвертированная Сумма</string>
     <string name="RUierText">Индикатор Обменного Курса</string>
@@ -18,7 +18,7 @@
     <string name="RUnutText">Время Следующего Обновления</string>
     <string name="RUswitchLangText">Поменять Язык</string>
 
-    <string name="ENtitleText">Currency Converter</string>
+    <string name="ENtitleText">ExoluteFlex</string>
     <string name="ENamount1Text">Initial Amount</string>
     <string name="ENamount2Text">Converted Amount</string>
     <string name="ENierText">Indicate Exchange Rate</string>
@@ -29,7 +29,7 @@
     <string name="ENsettingsTitle">Settings</string>
 
 
-    <string name="PLtitleText">Przelicznik Walut</string>
+    <string name="PLtitleText">ExoluteFlex</string>
     <string name="PLamount1Text">Początkowa Kwota</string>
     <string name="PLamount2Text">Przeliczona Kwota</string>
     <string name="PLierText">Wskaźnik kursu walutowego</string>
@@ -37,7 +37,7 @@
     <string name="PLnutText">Czas Następnej Aktualizacji</string>
     <string name="PLswitchLangText">Zmienić język</string>
 
-    <string name="NLtitleText">Valutaconverter</string>
+    <string name="NLtitleText">ExoluteFlex</string>
     <string name="NLamount1Text">Beginsaldo</string>
     <string name="NLamount2Text">Omgezette Bedrag</string>
     <string name="NLierText">Geef Wisselkoers Aan</string>

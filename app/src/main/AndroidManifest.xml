@@ -8,11 +8,11 @@
         tools:ignore="ScopedStorage" />
     <application
         android:allowBackup="true"
-        android:icon="@drawable/app_logo"
+        android:icon="@drawable/exoluteflex_icon"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/app_logo"
+        android:roundIcon="@drawable/exoluteflex_icon"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.NoActionBar">
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
